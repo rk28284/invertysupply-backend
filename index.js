@@ -18,7 +18,7 @@ app.get("/", (req, res) => {
   }
 
 })
-app.use("/", supplyRouter);
+app.use("/supply", supplyRouter);
 
 app.listen(PORT, async () => {
   console.log("Backend Is Running");
